@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <meta Nombre="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conditional Profile</title>
     <link rel="shortcut icon" href="./assets/img/4geeks.ico" />
     <script
       src="https://kit.fontawesome.com/072e5df971.js"
@@ -22,21 +22,98 @@
         </select>
       </li>
       <li>
-        <label>Name</label>
-        <input class="picker" for="name" type="text" />
+        <label>Nombre</label>
+        <input class="picker" for="Nombre" type="text" placeholder="Nombre" />
       </li>
       <li>
-        <label>Last Name</label>
-        <input class="picker" for="lastName" type="text" />
+        <label>Apellido</label>
+        <input
+          class="picker"
+          for="Apellido"
+          type="text"
+          placeholder="Apellido"
+        />
       </li>
       <li>
-        <label>S.M. Position</label>
-        <select class="picker" for="socialMediaPosition">
+        <label>Posicion redes</label>
+        <select class="picker" for="Posicion redes">
+          <option value="Select">Select</option>
           <option value="position-left">Left</option>
           <option value="position-right">Right</option>
         </select>
       </li>
       <li>
+        <label>Twitter</label>
+        <input
+          class="picker"
+          for="twitter"
+          type="text"
+          placeholder="https://x.com/Riculer?"
+        />
+      </li>
+      <li>
+        <label>Github</label>
+        <input
+          class="picker"
+          for="github"
+          type="text"
+          placeholder="https://github.com/ericmuler"
+        />
+      </li>
+      <li>
+        <label>LinkedIn</label>
+        <input
+          class="picker"
+          for="linkedin"
+          type="text"
+          placeholder="https://www.linkedin.com/in/eric-mulero-fernandez-86ba57351/"
+        />
+      </li>
+      <li>
+        <label>Instagram</label>
+        <input
+          class="picker"
+          for="instagram"
+          type="text"
+          placeholder="https://www.facebook.com/EricMulfer"
+        />
+      </li>
+      <li>
+        <label>Profesion</label>
+        <select class="picker" for="Profesion">
+          <option value="">Select</option>
+          <option value="Web Developer">Web Developer</option>
+          <option value="Floor Planner">Floor Planner</option>
+          <option value="Technical Writter">Technical Writter</option>
+        </select>
+      </li>
+      <li>
+        <label>Ciudad</label>
+        <select class="picker" for="Ciudad">
+          <option value="">Select</option>
+          <option value="Zaragoza">Zaragoza</option>
+          <option value="Barcelona">Barcelona</option>
+          <option value="Madrid">Madrid</option>
+          <option value="Oporto">Oporto</option>
+        </select>
+      </li>
+      <li>
+        <label>Pais</label>
+        <select class="picker" for="Pais">
+          <option value="">Select</option>
+          <option value="Spain">Spain</option>
+          <option value="Portugal">Portugal</option>
+          <option value="Cataluña">Cataluña</option>
+          <option value="Andorra">Andorra</option>
+        </select>
+      </li>
+    </ul>
+    <div id="widget_content"></div>
+
+    <!-- do not remove this bundle.js tag -->
+    <script type="text/javascript" src="/main.bundle.js"></script>
+  </body>
+</html>
         <label>Twitter</label>
         <input class="picker" for="twitter" type="text" />
       </li>
@@ -53,38 +130,38 @@
         <input class="picker" for="instagram" type="text" />
       </li>
       <li>
-        <label>Role</label>
-        <select class="picker" for="role">
-          <option value="">null</option>
+        <label>Profesion</label>
+        <select class="picker" for="Profesion">
+          <option value="">Select</option>
           <option value="Web Developer">Web Developer</option>
           <option value="Floor Planner">Floor Planner</option>
           <option value="Technical Writter">Technical Writter</option>
         </select>
       </li>
       <li>
-        <label>City</label>
-        <select class="picker" for="city">
-          <option value="">null</option>
-          <option value="Miami">Miami</option>
-          <option value="Munich">Munich</option>
-          <option value="Caracas">Caracas</option>
-          <option value="Toronto">Toronto</option>
+        <label>Ciudad</label>
+        <select class="picker" for="Ciudad">
+          <option value="">Select</option>
+          <option value="Zaragoza">Zaragoza</option>
+          <option value="Barcelona">Barcelona</option>
+          <option value="Madrid">Madrid</option>
+          <option value="Oporto">Oporto</option>
         </select>
       </li>
       <li>
-        <label>Country</label>
-        <select class="picker" for="country">
-          <option value="">null</option>
-          <option value="USA">USA</option>
-          <option value="Germany">Germany</option>
-          <option value="Canada">Canada</option>
-          <option value="Venezuela">Venezuela</option>
+        <label>Pais</label>
+        <select class="picker" for="Pais">
+          <option value="">Select</option>
+          <option value="Spain">Spain</option>
+          <option value="Portugal">Portugal</option>
+          <option value="Cataluña">Cataluña</option>
+          <option value="Andorra">Andorra</option>
         </select>
       </li>
     </ul>
     <div id="widget_content"></div>
 
-    <!-- do not remove this bundle.js tag -->
+    
     <script type="text/javascript" src="/main.bundle.js"></script>
   </body>
 </html>
